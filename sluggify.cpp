@@ -28,7 +28,7 @@ string trocar(string texto) {
     return result; 
 }
 
-string  escreverData(){
+string escreverData(){
   std::time_t timestamp = time(nullptr);
   std::tm* tm_local = localtime(&timestamp);
   std::stringstream ss;
@@ -38,7 +38,7 @@ string  escreverData(){
 
 int main(int argc, char* argv[]){
     for (int i = 1; i < argc; i++) {
-         cout <<escreverData()+"-" << trocar(argv[i]) << endl;
+        cout << escreverData()+"-" << trocar(argv[i]) << endl;
     }
 }
 
