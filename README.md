@@ -17,7 +17,7 @@ Its main feature is automatically prefixing the current date (YYMMDD), making it
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/sluggify.git
+git clone https://github.com/pjn821/sluggify.git
 cd sluggify
 ```
 
